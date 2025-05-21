@@ -1,6 +1,6 @@
 class AppConstants {
   // API Keys
-  static const String geminiApiKey = String.fromEnvironment('AIzaSyDau04tjtsJVImN_ZYDXtDU8rXNQ5JWW7Q');
+  static const String geminiApiKey = String.fromEnvironment('GEMINI_API_KEY');
   
   // API Endpoints
   static const String geminiApiUrl = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent';
